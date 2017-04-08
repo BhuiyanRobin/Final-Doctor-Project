@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mobileappdevelop.simpledoctor.MainActivity"
+    android:background="#6639b6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Medical History"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/home_logo"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/newMember"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="sign up"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/shpe2"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/isMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you Already A Member ?"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple Doctor</string>
+
+    <string name="country_prompt">Choose Your Area</string>
+
+    <string-array name="area_name">
+        <item>Choise a Security Question</item>
+        <item>My first pet name</item>
+        <item>My first school name</item>
+        <item>My best friend name</item>
+        <item></item>
+    </string-array>
+    <string name="title_activity_doctors_list">DoctorsList</string>
+</resources>
